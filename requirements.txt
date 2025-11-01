@@ -1,0 +1,11 @@
+flask-sqlalchemy
+werkzeug
+Flask>=2.2
+SQLAlchemy>=1.4
+psycopg2-binary>=2.9
+alembic>=1.10
+Flask-Migrate>=4.0
+python-dotenv>=1.0
+passlib[bcrypt]>=1.7
+pytest>=7.0
+requests>=2.28

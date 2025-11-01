@@ -1,0 +1,32 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="boto3" />
+          <option value="django" />
+          <option value="djangorestframework" />
+          <option value="djangorestframework-simplejwt" />
+          <option value="django-storages" />
+          <option value="psycopg2-binary" />
+          <option value="django-cors-headers" />
+          <option value="django-filter" />
+          <option value="pyppeteer" />
+          <option value="openpyxl" />
+          <option value="paho-mqtt" />
+          <option value="pillow" />
+          <option value="python-dateutil" />
+          <option value="pymongo" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="boto3-stubs[full]==1.40.50" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
