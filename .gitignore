@@ -1,0 +1,66 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Unit test / coverage reports
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+.nox/
+.tox/
+
+# Type checker / linters caches
+.mypy_cache/
+.pyre/
+.pytype/
+.ruff_cache/
+
+# Logs and temp files
+logs/
+*.log
+*.tmp
+*.temp
+
+# Flask/instance and local databases
+instance/
+*.db
+*.sqlite
+*.sqlite3
+dev.db
+
+# Environment files (keep templates like .env.example tracked)
+.env
+.env.local
+.flaskenv
+
+# IDE/editor settings
+.idea/
+.vscode/
+*.code-workspace
+.ropeproject/
+.history/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Alembic/migrations caches (keep migration scripts tracked)
+migrations/**/__pycache__/
